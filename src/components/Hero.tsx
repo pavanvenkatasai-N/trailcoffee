@@ -35,11 +35,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1.2 }}
-          className="font-heading text-2xl sm:text-7xl md:text-8xl lg:text-[11rem] text-cream leading-[1.1] sm:leading-none tracking-tighter sm:tracking-tight mt-0"
+          className="font-heading text-3xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[11rem] text-cream leading-[1.1] sm:leading-none tracking-tight mt-0"
         >
-          <span className="whitespace-nowrap">ANAGANAGA COFFEE</span>
-          <br />
-          KATHALU
+          <span className="block sm:inline">ANAGANAGA</span>
+          <br className="hidden sm:block" />
+          <span className="block sm:inline">COFFEE</span>{" "}
+          <span className="block sm:inline">KATHALU</span>
         </motion.h1>
 
         <motion.p 
