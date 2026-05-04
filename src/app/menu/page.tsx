@@ -1,11 +1,21 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const menuData = [
+interface MenuItem {
+  name: string;
+  price: string;
+  description?: string;
+}
+
+interface MenuSection {
+  category: string;
+  items: MenuItem[];
+}
+
+const menuData: MenuSection[] = [
   {
     category: "Hot Beverages",
     items: [

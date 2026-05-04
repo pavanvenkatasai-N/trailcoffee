@@ -60,7 +60,7 @@ export default function MenuTeaser() {
             />
           </div>
           <div className="absolute -bottom-6 -left-6 glass-card p-6 z-20 hidden md:block">
-            <p className="font-heading text-2xl text-cream italic">"The best stories start with a sip."</p>
+            <p className="font-heading text-2xl text-cream italic">&quot;The best stories start with a sip.&quot;</p>
           </div>
         </motion.div>
       </div>
