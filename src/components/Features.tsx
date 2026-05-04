@@ -39,7 +39,7 @@ export default function Features() {
       
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <h2 className="font-heading text-4xl md:text-6xl text-cream mb-6">More Than Just a Cafe</h2>
+          <h2 className="font-heading text-xl sm:text-4xl md:text-6xl text-cream mb-6 whitespace-nowrap">More Than Just a Cafe</h2>
           <p className="font-body text-brass uppercase tracking-[0.3em] text-sm">Elevating your daily ritual</p>
         </div>
 

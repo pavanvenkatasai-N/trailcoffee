@@ -16,7 +16,7 @@ export default function MenuTeaser() {
           >
             Taste the Narrative
           </motion.span>
-          <h2 className="font-heading text-5xl md:text-7xl text-cream mb-8">
+          <h2 className="font-heading text-3xl md:text-7xl text-cream mb-8">
             Curated Flavors for <br />
             <span className="text-brass italic">Every Chapter</span>
           </h2>

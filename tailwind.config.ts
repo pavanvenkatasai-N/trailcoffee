@@ -9,9 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        coffee: "var(--bg-coffee)",
-        caramel: "var(--accent-caramel)",
-        cream: "var(--text-cream)",
+        coffee: {
+          dark: "#120d0c",
+          medium: "#1f1816",
+        },
+        brass: {
+          DEFAULT: "#c5a059",
+          light: "#d4b881",
+        },
+        cream: "#fdfbf7",
       },
       fontFamily: {
         heading: ["var(--font-playfair)", "serif"],
